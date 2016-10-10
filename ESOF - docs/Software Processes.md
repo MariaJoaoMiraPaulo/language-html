@@ -2,13 +2,11 @@
 
 ## Descrição do Projeto
 
-Atom é um editor de texto moderno, acessível. Além disso, é customizável ou usa-lo de forma produtiva sem tocar num único ficheiro de configuração.
+Atom é um editor de texto moderno, acessível. Além disso, é customizável ou capaz de ser usado de forma produtiva sem tocar num único ficheiro de configuração.
 
-(https://avatars2.githubusercontent.com/u/1089146?v=3&s=400).
+![Image](https://cdn-business.discourse.org/uploads/github_atom/490/d8548f4ce56f1599.png)
 
-Apartir do repositório conseguimos perceber que este foi criado em Agosto de 2011, portanto já é um projeto com 5 anos. Ao todo existem mais de 365 contribuidores, é também reconhecido como um projeto que aceita imensos pull requests, daí o seu elevado número de contribuidores.
-
-O projeto esta licenciado sob a [licença MIT](https://opensource.org/licenses/MIT).
+A nossa ideia é complementar um core package do Atom, [languague-html](https://atom.io/packages/language-html) (repositório do GitHub [aqui](https://github.com/atom/language-html)). Este package permite reconhecer linguagem HTML, fazer highlights da sintaxe da mesma, entre outras. Contudo, este não contém auto-close de tags html, sendo esta uma feature primária encontrada em outros editores da mesma gama (ex: Sublime Text Editor). Consideramos importante a implementação desta feature, pois permite uma programação mais produtiva.
 
 ## Processo de Desenvolvimento
 
@@ -17,8 +15,13 @@ O projeto esta licenciado sob a [licença MIT](https://opensource.org/licenses/M
 
 O sistema de issues do GitHub é amplamente utilizado para controlar tarefas, melhorias e bugs.
 
-O repositório tem diversos branches:
-- os de versões lançadas;
-- os de desenvolvimento;
 
 ### Opiniões, Críticas e Alternativas
+
+#### Opiniões
+
+#### Críticas
+
+aceitarem muitos pull request
+
+#### Alternativas
