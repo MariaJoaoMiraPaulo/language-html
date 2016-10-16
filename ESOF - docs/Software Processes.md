@@ -25,7 +25,7 @@ O package 'language-html', possui atualmente **106 'closed issues'**, **37 'open
 
 
 
-![Image](http://firstmonday.org/ojs/index.php/fm/article/viewFile/1207/1127/11449)
+![Image](http://worldlibraries.dom.edu/index.php/worldlib/article/viewFile/90/27/405)
 
 ### Opiniões, Críticas e Alternativas
 
