@@ -23,6 +23,7 @@ O package 'language-html', possui atualmente **106 'closed issues'**, **37 'open
 
   No círculo central encontram-se os "core developers" que contribuem com grande parte do código e supervisionam o design e evolução do projeto. No círculo a seguir deparamo-nos com os "co-developers". Estes são responsáveis pela submissão de patches, através de pull requests, como por exemplo correção de erros, os quais são revistos e aprovados pelos "core developers". Além disso existem ainda "active users", utilizadores ativos, cuja contribuição se baseia não em código mas sim na deteção de erros frequentes e aspetos a melhorar. Finalmente temos os "passive users", aqueles que se limitam a usar o programa sem emitir qualquer opinião ou crítica.
 
+  O projeto utiliza o modelo "Iterative and Incremental Development". Este processo baseia-se no desenvolvimento de projetos através de iterações. O crescimento do projeto através de iterações significa que o desenvolvimento é dividido em pedaços menores, em pequenos projetos, levando assim a um crescimento gradual. Os packages do Atom são pequenos projetos que seguem este lema. Assim, os problemas são dividos em partes mais pequenas, o que diminui a complexidade do desenvolvimento. Desta forma torna-se mais fácil a resolução problemas encontrados pelos utilizadores.
 
 
 ![Image](http://worldlibraries.dom.edu/index.php/worldlib/article/viewFile/90/27/405)
