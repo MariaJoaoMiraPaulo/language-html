@@ -49,3 +49,10 @@ O package 'language-html', possui atualmente **106 'closed issues'**, **37 'open
   Uma alternativa para desenvolvimento do Atom seria privatizar-lo e fechar-lo da comunidade open-source. Desta forma, seria possivel monetizar o mesmo, mas o numero de developers seria bastante reduzido levando a um crescimentos mais lento e fechado a novas ideias.
 
   Outra alternativa seria não estar organizado por packages, proporcionando uma distribuição mais pesada e levando a um lançamento mais lento e espaçado de novas versões.
+
+## Contribuição do Grupo
+
+  Maria João Mira Paulo : 25%;
+  Nuno Ramos : 25%;
+  Pedro Costa : 25%;
+  Ricador Neves : 25%;
