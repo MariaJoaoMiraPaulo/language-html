@@ -53,6 +53,9 @@ O package 'language-html', possui atualmente **106 'closed issues'**, **37 'open
 ## Contribuição do Grupo
 
   Maria João Mira Paulo : 25%;
+
   Nuno Ramos : 25%;
+
   Pedro Costa : 25%;
+  
   Ricador Neves : 25%;
