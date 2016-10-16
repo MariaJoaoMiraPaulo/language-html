@@ -6,13 +6,22 @@ Atom é um editor de texto moderno, acessível. Além disso, é customizável ou
 
 ![Image](https://cdn-business.discourse.org/uploads/github_atom/490/d8548f4ce56f1599.png)
 
+### Actividade
+
+
+Atom possui atualmente(16/10/2016) **1736 'closed issues'**, **1815 'open issues'** e **4407 'forks'**.
+Os 'pull requests' são fechados em média em aproximadamente 19 horas e os issues em 1 dia.
+Atom possui ainda **73,016 'commits'** feitos por **1,870 contribuidores** representando 423,340 linhas de codigo.
+
+O package 'language-html', possui atualmente **106 'closed issues'**, **37 'open issues'** e **86 'forks'**.
+
 ### Atom packages
   A nossa ideia é complementar um core package do Atom, [languague-html](https://atom.io/packages/language-html) (repositório do GitHub [aqui](https://github.com/atom/language-html)). Este package permite reconhecer linguagem HTML, fazer highlights da sintaxe da mesma, entre outras. Contudo, este não contém auto-close de tags html, sendo esta uma feature primária encontrada em outros editores da mesma gama (ex: Sublime Text Editor). Consideramos importante a implementação desta feature, pois permite uma programação mais produtiva.
 
 ## Processo de Desenvolvimento
   Desenvolvimento de software de código aberto (FLOSS - Free/Libre and Open Source Software)
 
-  No círculo central encontram-se os "core developers" que contribuem com grande parte do código e supervisionam o design e evolução do projeto. No círculo a seguir deparamo-nos com os "co-developers". Estes são responsáveis pela submissão de patches, através de pull requests, como por exemplo correção de erros, os quais são revistos e aprovados pelos "core developers". Além disso existem ainda "active users", utilizadores ativos, cuja contribuição se baseia não em código mas sim em erros frequentes e aspetos a melhorar. Finalmente temos os "passive users", aqueles que se limitam a usar o programa sem emitir qualquer opinião ou crítica.
+  No círculo central encontram-se os "core developers" que contribuem com grande parte do código e supervisionam o design e evolução do projeto. No círculo a seguir deparamo-nos com os "co-developers". Estes são responsáveis pela submissão de patches, através de pull requests, como por exemplo correção de erros, os quais são revistos e aprovados pelos "core developers". Além disso existem ainda "active users", utilizadores ativos, cuja contribuição se baseia não em código mas sim na deteção de erros frequentes e aspetos a melhorar. Finalmente temos os "passive users", aqueles que se limitam a usar o programa sem emitir qualquer opinião ou crítica.
 
 
 
