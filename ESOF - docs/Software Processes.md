@@ -25,7 +25,7 @@ O package 'language-html', possui atualmente **106 'closed issues'**, **37 'open
 
   ![Image](http://worldlibraries.dom.edu/index.php/worldlib/article/viewFile/90/27/405)
 
-  ### Iterative and Incremental Development
+### Iterative and Incremental Development
 
   O projeto utiliza o modelo "Iterative and Incremental Development". Este processo baseia-se no desenvolvimento de projetos através de iterações. O crescimento do projeto através de iterações significa que o desenvolvimento é dividido em pedaços menores, em pequenos projetos, levando assim a um crescimento gradual. Os packages do Atom são pequenos projetos que seguem este lema. Assim, os problemas são dividos em partes mais pequenas, o que diminui a complexidade do desenvolvimento. Desta forma torna-se mais fácil a resolução problemas encontrados pelos utilizadores.
 
