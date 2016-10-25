@@ -57,5 +57,5 @@ O package 'language-html', possui atualmente **106 'closed issues'**, **37 'open
   Nuno Ramos : 25%;
 
   Pedro Costa : 25%;
-  
-  Ricador Neves : 25%;
+
+  Ricardo Neves : 25%;
