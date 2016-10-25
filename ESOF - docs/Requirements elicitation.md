@@ -2,15 +2,15 @@
 
 <a name="index"/>
 ## Índice
-1. [Elicitação](#elicitation)
-  1. [Casos de Uso](#use_cases)
-2. [Validação](#validation)
-  1. [Controlo de versão](#version_control)
-3. [Análise Crítica](#analysis)
-4. [Contribuição do Grupo](#group_contribution)
+1. [Elicitation](#elicitation)
+  1. [Use Cases](#use_cases)
+2. [Validation](#validation)
+  1. [Version Control](#version_control)
+3. [Domain Model](#domain_model)
+4. [Contributions](#group_contribution)
 
 <a name="elicitation"/>
-## Elicitação
+## Elicitation
 
 
 
@@ -18,26 +18,26 @@
 
 
 <a name="use_cases"/>
-### Casos de Uso
+### Use Cases
 
 
 
 
 <a name="validation"/>
-## Validação
+## Validation
 
 
 
 
 
 <a name="version_control"/>
-### Controlo de versão
+### Version Control
 
 
 
 
 
-<a name="analysis"/>
+<a name="domain_model"/>
 ## Análise Crítica
 
 
@@ -45,7 +45,7 @@
 
 
 <a name="group_contribution"/>
-## Contribuição do Grupo
+## Contributions
 
   Maria João Mira Paulo : 25%;
 
