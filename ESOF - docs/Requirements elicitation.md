@@ -52,6 +52,7 @@ As far as use cases go we asked Lee Dohm if their team analises use cases, in or
 <a name="domain_model"/>
 ## Domain Model
 
+![Image](https://raw.githubusercontent.com/MariaJoaoMiraPaulo/language-html/master/ESOF%20-%20docs/res/atomDomainModel.PNG)
 
 
 
