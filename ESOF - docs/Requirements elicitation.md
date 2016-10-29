@@ -43,7 +43,7 @@ As far as use cases go we asked Lee Dohm if their team analises use cases, in or
 
 >we do look at use cases for _how_ to design things, but we don't really use them as a way to determine prioritization, no
 
-![Image](https://scontent-lhr3-1.xx.fbcdn.net/v/t34.0-12/14813683_1218396928182549_104570310_n.png?oh=91a7a2239cf8ef2827e691ebe194b698&oe=5814180A)
+![Image](https://raw.githubusercontent.com/MariaJoaoMiraPaulo/language-html/master/ESOF%20-%20docs/res/useCases.jpeg)
 
 
 
