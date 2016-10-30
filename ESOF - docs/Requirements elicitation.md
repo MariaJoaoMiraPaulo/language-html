@@ -37,24 +37,23 @@ He also said that Atom's working on a new PR triage process:
 
 		Functional Requirements
 
-
-	When Atom is starting, it gathers all the packages installed by the user and puts them ready for use anytime the user selects them.
+When Atom is starting, it gathers all the packages installed by the user and puts them ready for use anytime the user selects them.
 	
-	Once loaded, the user can add, create or open a file. Upon the selection of one of these, the system has to instantly open a new tab with the file content while showing the directory path on the left of the screen. If the user desires, the system shall allow him to open more files at the same time and respectively generating new tabs, adressing to the files content.
+Once loaded, the user can add, create or open a file. Upon the selection of one of these, the system has to instantly open a new tab with the file content while showing the directory path on the left of the screen. If the user desires, the system shall allow him to open more files at the same time and respectively generating new tabs, adressing to the files content.
 	
-	At this stage, the system will allow the user to write or delete any text existing on the file aswell as saving the file as it is and closing it aftewards.
+At this stage, the system will allow the user to write or delete any text existing on the file aswell as saving the file as it is and closing it aftewards.
 	
-	Functional requirements vary due to the packages installed and selected while running Atom, /* so, here are only the main requirements without extra packages. */
+Functional requirements vary due to the packages installed and selected while running Atom, so, here are only the main requirements without extra packages.
 
 
 		Non Functional Requirements
 
 
-	The project should be developed mainly in CoffeScript and/or JavaScript.
+The project should be developed mainly in CoffeScript and/or JavaScript.
 	
-	It shall remain free of cost and reachable to anyone who wishes to use it.
+It shall remain free of cost and reachable to anyone who wishes to use it.
 	
-	Atom shall maintain its package system in order to maintain the light start of the program and enable the open source community to help on the developing process.
+Atom shall maintain its package system in order to maintain the light start of the program and enable the open source community to help on the developing process.
 	
 
 <a name="use_cases"/>
