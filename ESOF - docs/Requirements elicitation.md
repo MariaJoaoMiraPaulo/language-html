@@ -35,7 +35,7 @@ He also said that Atom's working on a new PR triage process:
 <a name="specific_requirements"/>
 ## Specific Requirements and Features
 
-	Functional Requirements
+Functional Requirements
 
 When Atom is starting, it gathers all the packages installed by the user and puts them ready for use anytime the user selects them.
 	
@@ -46,7 +46,7 @@ At this stage, the system will allow the user to write or delete any text existi
 Functional requirements vary due to the packages installed and selected while running Atom, so, here are only the main requirements without extra packages.
 
 
-	Non Functional Requirements
+Non Functional Requirements
 
 
 The project should be developed mainly in CoffeScript and/or JavaScript.
