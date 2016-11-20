@@ -19,6 +19,9 @@
 
 <a name="deployment_view"/>
 ## Deployment View
+The deployment view shows hardware nodes, communication relationships and software artifacts deployed on them.
+
+![Image](https://github.com/MariaJoaoMiraPaulo/language-html/blob/master/ESOF%20-%20docs/res/atomDeployment.png?raw=true)
 
 <a name="process_view"/>
 ## Process View
