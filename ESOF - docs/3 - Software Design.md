@@ -68,5 +68,5 @@ On atom, not much happens. Only if you want to install a new package, or update 
 
 
 As it is shown in the activity diagram, the starting point is launching the application.
-After doing it, we get to the users interface that allow us to choose from a certain range of options. We can manage the configurations, installing packages or themes, use packages or themes (user selected), and controlling settings. As far as using the application for it's main purpose, it is given the choice to open a file, or create a new one in the interface, and after that, also in the interface, we can write or delete text and then save it.
+After doing it, we get to the users interface that allows us to choose from a certain range of options. We can manage the configurations, install packages or themes, use packages or themes (user selected), and control settings. As far as using the application for it's main purpose, it is given the choice to open a file or create a new one in the interface and after that, also in the interface, we can write or delete text and then save it.
 With all of these activities we can only reach the end state in the interface before we open a file or after saving it.
