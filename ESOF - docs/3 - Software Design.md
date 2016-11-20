@@ -17,7 +17,7 @@ Microsoft answer:
 
 >Software application architecture is the process of defining a structured solution that meets all of the technical and operational requirements, while optimizing common quality attributes such as performance, security, and manageability. It involves a series of decisions based on a wide range of factors, and each of these decisions can have considerable impact on the quality, performance, maintainability, and overall success of the application.
 
-To study atom software architecture we going to use the 4+1 architectural view model. The 4+1 View Model describes software architecture using five concurrent views, each of which addresses a specific set of concerns:
+To study atom software architecture we going to use the 4x+1 architectural view model. The 4+1 View Model describes software architecture using five concurrent views, each of which addresses a specific set of concerns:
 
   * The logical view - describes the design's object model, the process view describes the design's concurrency and synchronization aspects;
 
@@ -28,6 +28,8 @@ To study atom software architecture we going to use the 4+1 architectural view m
   * The Process view - deals with the dynamic aspects of the system, explains the system processes and how they communicate, and focuses on the runtime behavior of the system;
 
   * The use-case view - this view is the adtional view (+1), it describes the user´s interaction with the system that shows the relationship between the user and the different use cases in which the user is involved;
+
+  ![Image](https://github.com/MariaJoaoMiraPaulo/language-html/blob/master/ESOF%20-%20docs/res/4+1.gif?raw=true)
 
 <a name="logical_view"/>
 ## Logical View
