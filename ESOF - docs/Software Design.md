@@ -17,6 +17,9 @@
 <a name="development_view"/>
 ## Development View
 
+![Image](https://github.com/MariaJoaoMiraPaulo/language-html/blob/master/ESOF%20-%20docs/res/atomComponentDiagram.png)
+
+
 <a name="deployment_view"/>
 ## Deployment View
 The deployment view shows hardware nodes, communication relationships and software artifacts deployed on them.
