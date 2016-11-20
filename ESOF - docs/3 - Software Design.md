@@ -23,7 +23,11 @@ In the logical view we'll show the main classes that define the atom engine.
 
 ![Image](https://github.com/MariaJoaoMiraPaulo/language-html/blob/master/ESOF%20-%20docs/res/class-diagram.png)
 
-The main class is AtomEnvironment, it is called in the beggining of the program and it calls all the other functionalaties.
+The main class is AtomEnvironment, it is called in the beggining of the program and it calls all the other functionalaties. Some of the main functionalaties/classes are:
+  * Config, this class holds and manages all Atom's configuration details;
+  * PackageManager, it controls and loads all the installed packages, which one of the key elements of Atom's editor;
+  * TextEditor, and all its TextBuffers, which contains the tools needed for writing and editing files as well as the undo/redo functionalaty;
+
 
 <a name="development_view"/>
 ## Development View
