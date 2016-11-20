@@ -7,6 +7,7 @@
 3. [Development View](#development_view)
 4. [Deployment View](#deployment_view)
 5. [Process View](#process_view)
+6. [Contributions](#group_contribution)
 
 <a name="introduction"/>
 ## Introduction
@@ -30,6 +31,8 @@ To study atom software architecture we going to use the 4x+1 architectural view 
   * The use-case view - this view is the adtional view (+1), it describes the user´s interaction with the system that shows the relationship between the user and the different use cases in which the user is involved;
 
   ![Image](https://github.com/MariaJoaoMiraPaulo/language-html/blob/master/ESOF%20-%20docs/res/4+1.gif?raw=true)
+  
+  The architectural pattern followed by Atom is Component-Based Architectural Style. Component-based architecture describes a software engineering approach to system design and development. It focuses on the decomposition of the design into individual functional or logical components that expose well-defined communication interfaces containing methods, events, and properties.   Atom is divided in packages that decompose the whole software into smaller components(packages). Each package represents an individual and extra functionality. Atom's core and its independent packages compose Atom, offering a higher level of abstraction. This allows Atom to be scalable.
 
 <a name="logical_view"/>
 ## Logical View
@@ -70,3 +73,14 @@ On atom, not much happens. Only if you want to install a new package, or update 
 As it is shown in the activity diagram, the starting point is launching the application.
 After doing it, we get to the users interface that allows us to choose from a certain range of options. We can manage the configurations, install packages or themes, use packages or themes (user selected), and control settings. As far as using the application for it's main purpose, it is given the choice to open a file or create a new one in the interface and after that, also in the interface, we can write or delete text and then save it.
 With all of these activities we can only reach the end state in the interface before we open a file or after saving it.
+
+<a name="group_contribution"/>
+## Contributions
+
+  Maria João Mira Paulo : 25%;
+
+  Nuno Ramos : 25%;
+
+  Pedro Costa : 25%;
+
+  Ricardo Neves : 25%;
