@@ -17,6 +17,9 @@
 <a name="development_view"/>
 ## Development View
 
+The Development view, also know as Implementation view is responsible for showing the project on development prespective. That view focuses on decomposing software into components. The component diagram's main purpose is to show the structural relationships between the components of a system. 
+This image shows the diferent components and the relationship between them.
+
 ![Image](https://github.com/MariaJoaoMiraPaulo/language-html/blob/master/ESOF%20-%20docs/res/atomComponentDiagram.png)
 
 
