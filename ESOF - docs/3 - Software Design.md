@@ -32,7 +32,7 @@ To study atom software architecture we going to use the 4x+1 architectural view 
 
   ![Image](https://github.com/MariaJoaoMiraPaulo/language-html/blob/master/ESOF%20-%20docs/res/4+1.gif?raw=true)
   
-  The architectural pattern followed by Atom is Component-Based Architectural Style. Component-based architecture describes a software engineering approach to system design and development. It focuses on the decomposition of the design into individual functional or logical components that expose well-defined communication interfaces containing methods, events, and properties.   Atom is divided in packages that decompose the whole software into smaller components(packages). Each package represents an individual and extra functionality. Atom's core and its independent packages compose Atom, offering a higher level of abstraction. This allows Atom to be scalable.
+>The architectural pattern followed by Atom is Component-Based Architectural Style. Component-based architecture describes a software engineering approach to system design and development. It focuses on the decomposition of the design into individual functional or logical components that expose well-defined communication interfaces containing methods, events, and properties.   Atom is divided in packages that decompose the whole software into smaller components(packages). Each package represents an individual and extra functionality. Atom's core and its independent packages compose Atom, offering a higher level of abstraction. This allows Atom to be scalable.
 
 <a name="logical_view"/>
 ## Logical View
