@@ -19,6 +19,11 @@ Microsoft answer:
 
 <a name="logical_view"/>
 ## Logical View
+In the logical view we'll show the main classes that define the atom engine.
+
+![Image](https://github.com/MariaJoaoMiraPaulo/language-html/blob/master/ESOF%20-%20docs/res/class-diagram.png)
+
+The main class is AtomEnvironment, it is called in the beggining of the program and it calls all the other functionalaties.
 
 <a name="development_view"/>
 ## Development View
