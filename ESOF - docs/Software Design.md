@@ -22,6 +22,8 @@ This image shows the diferent components and the relationship between them.
 
 ![Image](https://github.com/MariaJoaoMiraPaulo/language-html/blob/master/ESOF%20-%20docs/res/atomComponentDiagram.png)
 
+The overall architecture of Atom is organized around AtomEnvironment. The AtomEnvironment is the class responsible for dealing with packages, themes, menus, and the window. 
+
 
 <a name="deployment_view"/>
 ## Deployment View
