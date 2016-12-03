@@ -13,9 +13,9 @@
 The statistics related to Atom's tests are available in the ReadMe of Atom. As explained before Atom uses Jasmine as its spec framework, and 3 online platforms (CircleCi, Travis Ci and AppVeyor) to perform the build and run its tests.
 
 Atom tests run in 3 fases:
-- First it runs a system and regression testing, executes core main process tests:
-
-  >AtomApplication
+- First it runs a system and regression testing, executes core main process tests (console log show bellow):
+```
+  AtomApplication
     launch
       ✓ can open to a specific line number of a file (7091ms)
       ✓ can open to a specific line and column of a file (4158ms)
@@ -46,6 +46,7 @@ Atom tests run in 3 fases:
       ✓ restores the created recovery file when many windows attempt to save the same file and one of them crashes
       ✓ emits a warning when a file can't be recovered (52ms)
   23 passing (2m)
+  ```
 
 - Secondly it runs Unit testing, executes core render process tests:
   - [CircleCi](https://circleci.com/gh/atom/atom/2092#tests/containers/0) finished in 319.954 seconds 2027 tests, 7730 assertions, 0 failures, 0 skipped;
