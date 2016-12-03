@@ -60,7 +60,7 @@ Atom tests run in 3 fases:
   - [AppVeyor](https://ci.appveyor.com/project/Atom/atom/build/job/2y4kak3pr4npq0cg) took 194.545 seconds to run 2013 tests, resulting in 7645 assertions and 0 failures;
 - Executes benchmark tests;
 
-Atoms design strategy for test running is black-box testing, meaning that it only cares about the software's behavior and not about what happens internally.
+Atoms design strategy for test running is black-box testing, meaning that it only cares about the software's behavior and not about what happens internally. Due to this, Atom doesn't perform mutation nor coverage tests.
 
 
 ###Degree of Testability
