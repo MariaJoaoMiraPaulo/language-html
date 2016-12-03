@@ -4,6 +4,13 @@
 ## Index
 1. [Introduction](#introduction)
 2. [Test Statistics and analytics](#test-statistics)
+2. [Degree of Testability] (#degree-of-testability)
+  3. [Controllability] (#controllability)
+  4. [Observability] (#observability)
+  5. [Isolateability] (#isolateability)
+  6. [Separation of concerns] (#separation-of-concerns)
+  7. [Understandability] (#understandability)
+  8. [Heterogeneity] (#heterogeneity)
 <a name="introduction"/>
 ## Introduction
 
@@ -54,6 +61,22 @@ Atom tests run in 3 fases:
 - Executes benchmark tests;
 
 Atoms design strategy for test running is black-box testing, meaning that it only cares about the software's behavior and not about what happens internally.
+
+
+###Degree of Testability
+
+####Controllability
+
+####Observability
+
+####Isolateability
+
+####Separation of concerns
+
+####Understandability
+
+####Heterogeneity
+
 
 ## Contributions
 
