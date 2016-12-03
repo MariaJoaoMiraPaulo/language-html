@@ -3,10 +3,22 @@
 <a name="index"/>
 ## Index
 1. [Introduction](#introduction)
-2. [Test Statistics and analytics](#test-statistics)
+2. [Software Testability and Reviews](#testability)
+  1. [Controllability](#controllability)
+  2. [Observability](#observability)
+3. [Test Statistics and analytics](#test-statistics)
 <a name="introduction"/>
 ## Introduction
 
+<a name="testability"/>
+## Software Testability and Reviews
+
+<a name="controllability"/>
+### Controllability
+Atom contains a directory to test the application software, that directory is call specs. Atom uses [Jasmine](https://jasmine.github.io/1.3/introduction.html) as its spec framework. Jasmine is a behavior-driven development framework for testing javascript code. Its super easy to set up tests. Just create a file, where the filename has the component to test plus a "-spec" on the end, and there set up the tests of that component. If we analyze specs directory we can see more than 50 files of tests created, the filename says which component is tested. This proves that the components under test ( CUT ) only depend on them. Even AtomEnvironment, the component that most relates to others has their own tests.
+
+<a name="observability"/>
+### Observability
 
 <a name="test-statistics"/>
 ## Test Statistics and analytics
