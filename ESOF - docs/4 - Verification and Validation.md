@@ -72,7 +72,7 @@ In the shown page it is possible to see the list of the dependencies that Atom r
 
 In the library section we highlight the [TextBuffer] (https://github.com/atom/text-buffer) because it stores all the text written on Atom so the test can run headless.
 
-And finally we highlight the only tool used by this projecto, [AtomDoc] (https://github.com/atom/atomdoc) because it has the parser with JavaScript / CoffeScript.
+And finally we highlight the only tool used by this project, [AtomDoc] (https://github.com/atom/atomdoc) because it has the parser with JavaScript / CoffeScript.
 
 <a name="test-statistics"/>
 ## Test Statistics and analytics
