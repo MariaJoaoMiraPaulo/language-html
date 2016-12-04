@@ -128,6 +128,8 @@ Atoms design strategy for test running is black-box testing, meaning that it onl
 <a name="bug"/>
 ## Bug Report Solution
 
+In order to further enhance our experience with the testing of Atom, our group started to work in the issue #6082 which discusses how useful would be having a warning message before quitting because, sometimes when multiple buffers and multiple windows are opened, user wants to close current buffer in current window by pressing Ctrl+W. Unfortunately, they inadvertently pressed Ctrl+Q and everything disappears. 
+
 
 ## Contributions
 
