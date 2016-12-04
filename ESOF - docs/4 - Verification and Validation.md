@@ -16,7 +16,7 @@
 ## Introduction
 Software testing is a process of executing a program or application with the intent of finding software bugs or to validate and verify that the software does what we expect.
 
-In this report, first we are going to study how tests are made on atom, and how easy is to set up a test, then we are going to present some test statistics and in the end we are going to talk about a bug on atom.
+Firstly we are going to study how tests are made on atom and discuss how easy is to set up a test. Then we are going to present some test statistics and finally we are going to talk about a bug that we found on atom.
 
 <a name="testability"/>
 ##Degree of Testability
