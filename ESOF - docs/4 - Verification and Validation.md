@@ -11,7 +11,7 @@
   5. [Understandability](#understandability)
   6. [Heterogeneity](#heterogeneity)
 3. [Test Statistics and analytics](#test-statistics)
-4. [Bug Report Solution] (#bug)
+4. [Bug Report Solution] (#bug-report)
 
 <a name="introduction"/>
 ## Introduction
@@ -125,7 +125,7 @@ Atom tests run in 3 fases:
 
 Atoms design strategy for test running is black-box testing, meaning that it only cares about the software's behavior and not about what happens internally. Due to this, Atom doesn't perform mutation nor coverage tests.
 
-<a name="bug"/>
+<a name="#bug-report"/>
 ## Bug Report Solution
 
 In order to further enhance our experience with the testing of Atom, our group started to work in the issue #6082 which discusses how useful would be having a warning message before quitting because, sometimes when multiple buffers and multiple windows are opened, user wants to close current buffer in current window by pressing Ctrl+W. Unfortunately, they inadvertently pressed Ctrl+Q and everything disappears. 
