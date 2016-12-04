@@ -24,6 +24,12 @@ Atom contains a directory to test the application software, that directory is ca
 
 <a name="observability"/>
 ###Observability
+The tests in the specs directory can be tested:
+  - locally:
+      -running via the command line, if a test failed we cannot see what was the reason to fail;
+  - when doing a commit or a pull request:
+      -there is 3 websites ( travis, circleci and appveyor ) that automaticaly will test the code, they make different types of tests. After running the tests all the websites provide a detailed report, something that can be very helpfull in case of failure to understand what went wrong;
+So, we can conclude that the observability of the results of the tests are excellent, because it is easy to interpret and because of the detailed reports it is easy to understand the origin of possible failures.
 
 <a name="isolateability"/>
 ###Isolateability
