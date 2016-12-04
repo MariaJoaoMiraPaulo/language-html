@@ -49,8 +49,30 @@ Since this project is well organized, the tests effectivness is considerably big
 <a name="understandability"/>
 ###Understandability
 
+Atom is a well structured repository because it is ver well documented and has instructions for every step you need to take. It starts when you open the repository and you have an introduction about what you can do and how to do it aswell as explaining what Atom is and its major specifications.
+When looking at the repository itself it can seen right away that there is a big number of folders, all with identifying names so anyone can choose directly the main files of what they are looking for and then, after selecting a source file, it's possible to see that each function running on Atom has a description, documentation, befor its definition. Also, on the opening of each folder, there is a description of the contents of the folder.
+The proof of the easy understanding of this project is right on the number of contribuitors and extern developers. Since it's easy, anyone willing to help can pass by the repository and implement its idea.
+
 <a name="heterogeneity"/>
 ###Heterogeneity
+
+The Atom project is probably one of the most heterogeneit projects because of its package system. It means it has a massive extern content that helps to the complementation of the project and it can read various programming languages.
+The main, Atom accepted packages, languages and build status are all in [here] (https://github.com/atom/atom/blob/master/docs/build-instructions/build-status.md).
+In the shown page it is possible to see the list of the dependencies that Atom requires thus getting knowledge of its heterogeneity. As said before there is a vast list of the differente languages that Atom can support which we highlight:
+
+-C/C++
+
+-JavaScript
+
+-HTML
+
+-CSS
+
+-Python
+
+In the library section we highlight the [TextBuffer] (https://github.com/atom/text-buffer) because it stores all the text written on Atom so the test can run headless.
+
+And finally we highlight the only tool used by this projecto, [AtomDoc] (https://github.com/atom/atomdoc) because it has the parser with JavaScript / CoffeScript.
 
 <a name="test-statistics"/>
 ## Test Statistics and analytics
