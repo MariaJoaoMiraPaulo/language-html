@@ -36,8 +36,11 @@ So, we can conclude that the observability of the results of the tests are excel
 <a name="separation-of-concerns"/>
 ###Separation of concerns
 Atom has a concrete and distinct project organization/division. Separation of Concerns is responsible for divide an application into distinct features with as little overlap in functionality as possible. The important factor is minimization of interaction points to achieve high cohesion.
+
 Concerns are the different aspects of software functionality. The separation of concerns is keeping the code for each of these concerns separate.
-For Example, in Atom, changing the interface don’t require changing the logic code, and vice versa.
+For Example, in Atom, changing the interface don’t require changing the logic code, and vice versa. 
+
+Since this project is well organized, the tests effectivness is considerably big.
 
 <a name="understandability"/>
 ###Understandability
