@@ -11,6 +11,7 @@
   5. [Understandability](#understandability)
   6. [Heterogeneity](#heterogeneity)
 3. [Test Statistics and analytics](#test-statistics)
+4. [Bug Report Solution] (#bug)
 
 <a name="introduction"/>
 ## Introduction
@@ -123,6 +124,10 @@ Atom tests run in 3 fases:
 - Executes benchmark tests;
 
 Atoms design strategy for test running is black-box testing, meaning that it only cares about the software's behavior and not about what happens internally. Due to this, Atom doesn't perform mutation nor coverage tests.
+
+<a name="bug"/>
+## Bug Report Solution
+
 
 ## Contributions
 
