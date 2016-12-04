@@ -128,7 +128,16 @@ Atoms design strategy for test running is black-box testing, meaning that it onl
 <a name="#bug-report"/>
 ## Bug Report Solution
 
-In order to further enhance our experience with the testing of Atom, our group started to work in the issue #6082 which discusses how useful would be having a warning message before quitting because, sometimes when multiple buffers and multiple windows are opened, user wants to close current buffer in current window by pressing Ctrl+W. Unfortunately, they inadvertently pressed Ctrl+Q and everything disappears. 
+In order to further enhance our experience with the testing of Atom, our group started to work in the issue #6082 which discusses how useful would be having a warning message before quitting because, sometimes when multiple buffers and multiple windows are opened, user wants to close current buffer in current window by pressing Ctrl+W. Unfortunately, they inadvertently pressed Ctrl+Q and everything disappears.
+Atom's community manager oposed this warning message, he said:
+>I philosophically disagree with quit confirmations because I believe that quit confirmations are solving a real problem with red tape. The real problem is "I don't want to lose data accidentally".
+
+So we decide a differente approach, we changed the keymap 'ctrl-q', to first save all documents and only after it would quit the program.
+We did this by altering the following files:
+
+![Image](https://raw.githubusercontent.com/MariaJoaoMiraPaulo/language-html/master/ESOF%20-%20docs/res/keymaps.png)
+
+![Image](https://raw.githubusercontent.com/MariaJoaoMiraPaulo/language-html/master/ESOF%20-%20docs/res/safeQuit.png)
 
 
 ## Contributions
