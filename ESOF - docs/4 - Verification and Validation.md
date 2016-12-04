@@ -24,13 +24,13 @@ Firstly we are going to study how tests are made on atom and discuss how easy is
 
 <a name="controllability"/>
 ###Controllability
-Atom contains a directory to test the application software, that directory is call specs. Atom uses [Jasmine](https://jasmine.github.io/1.3/introduction.html) as its spec framework. Jasmine is a behavior-driven development framework for testing javascript code. Its super easy to set up tests. Just create a file, where the filename has the component to test plus a "-spec" on the end, and there set up the tests of that component. If we analyze specs directory, on atom source code, we can see more than 50 files of tests created, the filename says which component is tested. This proves that the components under test ( CUT ) only depend on them. Even AtomEnvironment, the component that most relates to others has their own tests.
+Atom contains a directory to test the application software, that directory is call specs. Atom uses [Jasmine](https://jasmine.github.io/1.3/introduction.html) as its spec framework. Jasmine is a behaviour-driven development framework for testing javascript code. Its super easy to set up tests. Just create a file, where the filename has the component to test plus a "-spec" on the end, and there set up the tests of that component. If we analyse specs directory, on atom source code, we can see more than 50 files of tests created, the filename says which component is tested. This proves that the components under test ( CUT ) only depend on them. Even AtomEnvironment, the component that most relates to others has their own tests.
 
 <a name="observability"/>
 ###Observability
 The tests in the specs directory can be tested:
   - locally - running via the command line, if a test failed we cannot see what was the reason to fail;
-  - when doing a commit or a pull request - there is 3 websites ( travis ci, circleci and appveyor ) that automaticaly will test the code, they make different types of tests. After running the tests all the websites provide a detailed report, something that can be very helpfull in case of failure to understand what went wrong.
+  - when doing a commit or a pull request - there is 3 websites ( travis ci, circleci and appveyor ) that automatically will test the code, they make different types of tests. After running the tests all the websites provide a detailed report, something that can be very helpful in case of failure to understand what went wrong.
 
 So, we can conclude that the observability of the results of the tests are excellent, because it is easy to interpret and because of the detailed reports it is easy to understand the origin of possible failures.
 
@@ -48,21 +48,21 @@ Atom has a concrete and distinct project organization/division. Separation of Co
 
 The separation of concerns is keeping the code for each of the concerns (aspects of software functionality) separate, which means that the component under test (CUT) has a single, well defined responsibility.
 
-Since this project is well organized, the tests effectivness is considerably big.
+Since this project is well organized, the tests effectiveness is considerably big.
 
 <a name="understandability"/>
 ###Understandability
 
-Atom is a well structured repository because it is ver well documented and has instructions for every step you need to take. It starts when you open the repository and you have an introduction about what you can do and how to do it aswell as explaining what Atom is and its major specifications.
-When looking at the repository itself it can seen right away that there is a big number of folders, all with identifying names so anyone can choose directly the main files of what they are looking for and then, after selecting a source file, it's possible to see that each function running on Atom has a description, documentation, befor its definition. Also, on the opening of each folder, there is a description of the contents of the folder.
-The proof of the easy understanding of this project is right on the number of contribuitors and extern developers. Since it's easy, anyone willing to help can pass by the repository and implement its idea.
+Atom is a well structured repository because it is very well documented and has instructions for every step you need to take. It starts when you open the repository and you have an introduction about what you can do and how to do it as well as explaining what Atom is and its major specifications.
+When looking at the repository itself it can seen right away that there is a big number of folders, all with identifying names so anyone can choose directly the main files of what they are looking for and then, after selecting a source file, it's possible to see that each function running on Atom has a description, documentation, before its definition. Also, on the opening of each folder, there is a description of the contents of the folder.
+The proof of the easy understanding of this project is right on the number of contributors and external developers. Since it's easy, anyone willing to help can pass by the repository and implement its idea.
 
 <a name="heterogeneity"/>
 ###Heterogeneity
 
-The Atom project is probably one of the most heterogeneit projects because of its package system. It means it has a massive extern content that helps to the complementation of the project and it can read various programming languages.
+The Atom project is probably one of the most heterogeneity projects because of its package system. It means it has a massive external content that helps to the complementation of the project and it can read various programming languages.
 The main, Atom accepted packages, languages and build status are all in [here] (https://github.com/atom/atom/blob/master/docs/build-instructions/build-status.md).
-In the shown page it is possible to see the list of the dependencies that Atom requires thus getting knowledge of its heterogeneity. As said before there is a vast list of the differente languages that Atom can support which we highlight:
+In the shown page it is possible to see the list of the dependencies that Atom requires thus getting knowledge of its heterogeneity. As said before there is a vast list of the different languages that Atom can support which we highlight:
 
 -C/C++
 
@@ -82,7 +82,7 @@ And finally we highlight the only tool used by this project, [AtomDoc] (https://
 ## Test Statistics and analytics
 The statistics related to Atom's tests are available in the ReadMe of Atom. As explained before Atom uses Jasmine as its spec framework, and 3 online platforms (CircleCi, Travis Ci and AppVeyor) to perform the build and run its tests.
 
-Atom tests run in 3 fases:
+Atom tests run in 3 phases:
 - First it runs a system and regression testing, executes core main process tests (console log show bellow):
 ```
   AtomApplication
@@ -123,16 +123,16 @@ Atom tests run in 3 fases:
   - [AppVeyor](https://ci.appveyor.com/project/Atom/atom/build/job/2y4kak3pr4npq0cg) took 194.545 seconds to run 2013 tests, resulting in 7645 assertions and 0 failures;
 - Executes benchmark tests;
 
-Atoms design strategy for test running is black-box testing, meaning that it only cares about the software's behavior and not about what happens internally. Due to this, Atom doesn't perform mutation nor coverage tests.
+Atoms design strategy for test running is black-box testing, meaning that it only cares about the software's behaviour and not about what happens internally. Due to this, Atom doesn't perform mutation nor coverage tests.
 
 <a name="#bug-report"/>
 ## Bug Report Solution
 
 In order to further enhance our experience with the testing of Atom, our group started to work in the issue #6082 which discusses how useful would be having a warning message before quitting because, sometimes when multiple buffers and multiple windows are opened, user wants to close current buffer in current window by pressing Ctrl+W. Unfortunately, they inadvertently pressed Ctrl+Q and everything disappears.
-Atom's community manager oposed this warning message, he said:
+Atom's community manager opposed this warning message, he said:
 >I philosophically disagree with quit confirmations because I believe that quit confirmations are solving a real problem with red tape. The real problem is "I don't want to lose data accidentally".
 
-So we decide a differente approach, we changed the keymap 'ctrl-q', to first save all documents and only after it would quit the program.
+So we decide a different approach, we changed the keymap 'ctrl-q', to first save all documents and only after it would quit the program.
 We did this by altering the following files:
 
 ![Image](https://raw.githubusercontent.com/MariaJoaoMiraPaulo/language-html/master/ESOF%20-%20docs/res/keymaps.png)
