@@ -11,7 +11,7 @@
   5. [Understandability](#understandability)
   6. [Heterogeneity](#heterogeneity)
 3. [Test Statistics and analytics](#test-statistics)
-4. [Bug Report Solution] (#bug-report)
+4. [Bug Report Solution](#bug-report)
 
 <a name="introduction"/>
 ## Introduction
