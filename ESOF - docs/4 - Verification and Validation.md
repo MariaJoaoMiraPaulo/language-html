@@ -32,7 +32,7 @@ So, we can conclude that the observability of the results of the tests are excel
 
 <a name="isolateability"/>
 ###Isolateability
-The isolateability of a concern it's a consequence of a good code organization and file separation.Since atom has positive aspects in the Separation of concerns module, it was expected to have good results in this module too.
+The isolateability of a concern it's a consequence of a good code organization and file separation. Since atom has positive aspects in the Separation of concerns module, it was expected to have good results in this module too.
 
 Isolateability allows components to be tested in isolation. In a well-design system, a component has a single responsibility, and its interface with other components are simple and clear.
 
