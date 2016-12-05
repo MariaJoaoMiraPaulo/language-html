@@ -141,6 +141,12 @@ We did this by altering the following files:
 
 Since we coulnd't build Atom and therefore test the change in the default files we tested that our code worked in another way. Atom allows custom functions and keymaps to be loaded when Atom opens, so we added the above 'safeQuit' function to the init.coffee and the keymap to keymaps.cson, this files overide the default keymap, that allowed us to test that our keymap was working proprelly even though we couldn't build atom to test the default keymaps.
 
+We submited a Pull Request with our solution. We're waiting for a response but for now it passed all the tests.
+
+![Image](https://raw.githubusercontent.com/MariaJoaoMiraPaulo/language-html/master/ESOF%20-%20docs/res/PRtests.png)
+
+
+
 ## Contributions
 
   Maria João Mira Paulo : 25%;
